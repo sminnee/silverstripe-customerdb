@@ -1,0 +1,24 @@
+{
+    "name": "sminnee/customerdb",
+    "description": "Central Customer Database to assist personalisation / omnichannel architecture",
+    "type": "silvesrtripe-vendormodule",
+    "require": {
+        "silverstripe/framework": "^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sminnee\\CustomerDb\\": "src/",
+            "Sminnee\\CustomerDb\\Tests\\": "tests/"
+        }
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Sam Minnee",
+            "email": "sam@silverstripe.com"
+        }
+    ]
+}

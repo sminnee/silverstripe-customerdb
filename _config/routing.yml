@@ -1,0 +1,8 @@
+---
+Name: customerdb-routing
+---
+SilverStripe\Control\Director:
+  rules:
+    'segment-webhook': Sminnee\CustomerDb\Controller\SegmentWebhook
+    'api/customer-info/$Identifier': Sminnee\CustomerDb\Controller\CustomerInfoApi
+---
